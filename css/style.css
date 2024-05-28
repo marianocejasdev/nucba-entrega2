@@ -1,0 +1,63 @@
+/* RESETS  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* UTILITIES */
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+  background-color: #131415;
+}
+
+/* NAV */
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+
+  .logo img {
+    height: 2rem;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1.5rem;
+
+    li {
+      list-style: none;
+    }
+
+  }
+
+  .nav-cta {
+    background-color: #23CFA4;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    font-weight: 700;
+  }
+
+}
